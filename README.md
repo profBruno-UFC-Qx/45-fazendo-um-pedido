@@ -1,8 +1,8 @@
 # Descrição
 
-Neste exercício, você irá criar uma página web que exibe uma galeria de imagens que deverá ser estilizado.
+Neste exercício, você irá criar uma página web que seria usada supostamente para pedir a um fornecedor uma quantidade de itens para recompor seu estoque.
 
-O objetivo deste exercício é praticar o uso de seletores CSS pseudo-classes.
+O objetivo deste exercício é praticar a manipulação da DOM usando JavaScript.
 
 **Todas as alterações devem ser feitas nos arquivos já existentes**
 
@@ -11,6 +11,24 @@ O objetivo deste exercício é praticar o uso de seletores CSS pseudo-classes.
 * src/js/script.js -> quando for necessário alterar JavaScript
 
 ## Instruções:
+
+1. Suponha que seu fornecedor tem uma lista de produtos em estoque, cada um com um nome e uma quantidade disponível.
+2. Altere o arquivo **src/index.html** e crie um formulário para permitir que os usuários façam um pedido de produtos.
+3. Adicione campos de entrada de texto para o nome e o e-mail do cliente, e um campo de seleção para o produto desejado.
+4. Utilize HTML5 para adicionar atributos de validação, como required e type="email".
+5. Usando JavaScript, ajuste o campo de quantidade para que o valor máximo seja a quantidade disponível do produto escolhido.
+6. Adicione um botão de envio ao formulário.
+7. Estilize o formulário com CSS para melhorar a aparência.
+
+Exemplo de produtos em estoque (atualize com seus próprios valores):
+
+```JavaScript
+const produtosEmEstoque = [
+  { nome: 'Produto 1', quantidade: 10 },
+  { nome: 'Produto 2', quantidade: 5 },
+  { nome: 'Produto 3', quantidade: 8 }
+];
+```
 
 
 ## Recomendações
